@@ -42,6 +42,27 @@ The API is served under `http://localhost:3000/api`; Vite defaults to `http://lo
 - Admin school metrics, booking cancellation, payment tracking, account enrollment, fleet management, and messaging.
 - Role checks and ownership checks are enforced in the API as well as by protected frontend routes.
 
+## Student Lesson Booking System (Latest Addition)
+
+This submission adds the core infrastructure for the student lesson booking system:
+
+### Backend Implementation (NestJS + Prisma)
+- **Prisma Schema** (`backend/prisma/schema.prisma`): Database models for the lesson booking system
+- **App Module** (`backend/src/app.module.ts`): Main application module configuration
+- **Features Controller** (`backend/src/features/features.controller.ts`): API endpoints for lesson management features
+- **Features Service** (`backend/src/features/features.service.ts`): Business logic for lesson booking operations
+- **Prisma Module** (`backend/src/prisma/prisma.module.ts`): Database connection module
+- **Prisma Service** (`backend/src/prisma/prisma.service.ts`): Prisma client service for database operations
+- **Main Entry Point** (`backend/src/main.ts`): NestJS application bootstrap
+- **Feature DTOs** (`backend/src/features/dto/feature.dto.ts`): Data transfer objects for API requests/responses
+
+### Frontend Implementation (React)
+- **App Component** (`frontend/src/App.tsx`): Main application component with routing
+- **API Client** (`frontend/src/api/client.ts`): Axios HTTP client for backend communication
+- **Authentication Context** (`frontend/src/auth/AuthContext.tsx`): Updated authentication state management
+- **Main Entry Point** (`frontend/src/main.tsx`): React application bootstrap
+- **Styling** (`frontend/src/index.css`): Updated visual styles for the booking interface
+
 ## Main source layout
 
 ```text
