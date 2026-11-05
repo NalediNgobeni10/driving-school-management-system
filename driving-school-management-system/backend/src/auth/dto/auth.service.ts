@@ -1,3 +1,6 @@
+// Naledi Ngobeni
+// Student Number: 230742912
+
 import { ConflictException, Injectable, UnauthorizedException } from '@nestjs/common';
 import { createHmac, randomBytes, scryptSync, timingSafeEqual } from 'node:crypto';
 import { PrismaService } from '../prisma/prisma.service';

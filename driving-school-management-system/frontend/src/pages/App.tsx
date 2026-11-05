@@ -1,3 +1,6 @@
+// Naledi Ngobeni
+// Student Number: 230742912
+
 import { useEffect, useState } from 'react';
 import type { FormEvent, ReactNode } from 'react';
 import { Link, Navigate, NavLink, Outlet, Route, Routes, useLocation, useNavigate } from 'react-router-dom';

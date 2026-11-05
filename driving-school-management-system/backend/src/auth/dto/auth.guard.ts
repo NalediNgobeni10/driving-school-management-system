@@ -1,3 +1,6 @@
+
+// Naledi Ngobeni
+// Student Number: 230742912
 import { CanActivate, ExecutionContext, Injectable, UnauthorizedException } from '@nestjs/common';
 import { createHmac, timingSafeEqual } from 'node:crypto';
 
